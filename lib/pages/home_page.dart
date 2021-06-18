@@ -8,12 +8,12 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text("Catalog App"),
       ),
-        body: Center(
-          child: Container(
-            child: Text("Welcome Ansh in another page"),
-          ),
+      body: Center(
+        child: Container(
+          child: Text("Welcome Ansh in another page"),
         ),
-        drawer: MyDrawer(),
+      ),
+      drawer: MyDrawer(),
     );
   }
 }
